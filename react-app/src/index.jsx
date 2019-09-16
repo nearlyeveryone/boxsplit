@@ -6,8 +6,8 @@ import App from './App';
 const title = 'yeet';
 
 ReactDOM.render(
-  <App title={title} />,
-  document.getElementById('app')
+  <App/>,
+  document.getElementById('root')
 );
 
 module.hot.accept();

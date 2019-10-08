@@ -7,3 +7,30 @@ h1{
 	text-align: center;
 	/*font-size: 150%;*/
 }
+
+.body-coloring{
+	background-color: #DEA7FF;
+}
+
+.sidebar-physical{
+	position: fixed;
+	left: 5;
+	top: 10px;
+	background-color: lightgreen;
+	outline-color: black;
+	outline-width: 2px;
+	outline: solid;
+	padding: 0px 15px 25px;
+}
+
+.sidebar-inner{
+	text-align: center;
+	font-family: monospace;
+}
+
+.sidebar-inner li{
+	list-style: none;
+	list-style-position: center;
+	font-weight: bold;
+	color: white;
+}

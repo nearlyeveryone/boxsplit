@@ -26,6 +26,9 @@ def read_item(item_id: int, q: str = None):
 
 @app.get("/shape/{shape_name}")
 async def get_shape(shape_name: Shape):
+    """
+    - **shape_name**: What shape are you using?
+    """
     if shape_name == Shape.circle:
         return {"shape_name": shape_name, "message": "I have infinite vertices!"}
     if shape_name == Shape.square:

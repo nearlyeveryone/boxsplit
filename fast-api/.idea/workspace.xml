@@ -15,7 +15,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571170412938</updated>
       <workItem from="1571170414674" duration="1972000" />
-      <workItem from="1571429212273" duration="2212000" />
+      <workItem from="1571429212273" duration="3737000" />
     </task>
     <servers />
   </component>

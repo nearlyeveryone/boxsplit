@@ -20,7 +20,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,7 +76,11 @@
       <workItem from="1571170414674" duration="1972000" />
       <workItem from="1571429212273" duration="4436000" />
       <workItem from="1571774493341" duration="779000" />
-      <workItem from="1571776944471" duration="686000" />
+      <workItem from="1571776944471" duration="1292000" />
+      <workItem from="1572034075087" duration="648000" />
+      <workItem from="1572402023029" duration="600000" />
+      <workItem from="1572639375831" duration="601000" />
+      <workItem from="1572987363471" duration="2247000" />
     </task>
     <servers />
   </component>

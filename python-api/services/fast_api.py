@@ -18,4 +18,3 @@ def read_item(item_id: int, q: str = None):
 def penis():
     user = svc.find_user_by_email("poog@split.box")
     return user.to_json()
-

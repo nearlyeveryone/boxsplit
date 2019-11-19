@@ -26,5 +26,6 @@ def read_secrets():
         data = json.load(read_file)
     return data
 
+
 if __name__ == '__main__':
     main()

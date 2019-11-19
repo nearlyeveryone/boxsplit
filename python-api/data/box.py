@@ -11,6 +11,7 @@ class Box(mongoengine.Document):
     description = mongoengine.StringField(required=True)
     state = mongoengine.IntField(default=0)
     creation_date = mongoengine.DateTimeField(default=datetime.datetime.now)
+    box_image = mongoengine.ImageField()
 
     splits = mongoengine.ListField(mongoengine.ReferenceField(Split))
 

@@ -7,6 +7,7 @@ from data.user import User
 
 # user stuff ==========================================================================================================
 
+
 def create_user(name: str, email: str) -> User:
     user = User()
     user.name = name
@@ -17,7 +18,7 @@ def create_user(name: str, email: str) -> User:
 
 
 def find_user_by_id(user_id: str) -> User:
-    user = user.objets.get(id = user_id)
+    user = User.objets.get(id = user_id)
     print("found user : ", user.name)
     return user
 
@@ -81,12 +82,12 @@ def add_split_to_box(box: Box, split: Split):
     box.save()
 
 
-#def get_box_from_id(id: str) -> Box:
+# def get_box_from_id(id: str) -> Box:
 
 
-#def assign_participant_to_split(split: Split, participant_id: str):
+# def assign_participant_to_split(split: Split, participant_id: str):
 
 
-#def remove_participant_from_split(split: Split, participant_id: str):
+# def remove_participant_from_split(split: Split, participant_id: str):
 
 

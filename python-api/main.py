@@ -11,7 +11,7 @@ def main():
     secrets = read_secrets()
     mongo_setup.global_init(secrets)
 
-    # user = svc.find_user_by_email("poog@split.box")
+    # user = svc.find_user_by_email("poog@split.box") blacks
     # box = svc.find_box_by_id("5dbc8670e3e74473175d283f")
     # split = svc.find_split_by_id("5dbc8670e3e74473175d283e")
     #

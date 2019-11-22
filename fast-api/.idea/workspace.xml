@@ -8,6 +8,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
     <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
@@ -80,7 +87,10 @@
       <workItem from="1572034075087" duration="648000" />
       <workItem from="1572402023029" duration="600000" />
       <workItem from="1572639375831" duration="601000" />
-      <workItem from="1572987363471" duration="2247000" />
+      <workItem from="1572987363471" duration="3258000" />
+      <workItem from="1573247514728" duration="2288000" />
+      <workItem from="1573249823363" duration="292000" />
+      <workItem from="1573592235047" duration="3141000" />
     </task>
     <servers />
   </component>

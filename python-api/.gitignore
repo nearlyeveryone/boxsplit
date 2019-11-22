@@ -1,4 +1,5 @@
 .idea/
 venv/
+secrets.json
 function.zip
 __pycache__/

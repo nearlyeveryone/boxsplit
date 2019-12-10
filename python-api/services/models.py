@@ -34,3 +34,8 @@ class Box(BaseID):
     creation_date: datetime
 
     splits: List[Split]
+
+
+class User(BaseID):
+    name: str
+    email:str

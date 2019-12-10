@@ -1,6 +1,6 @@
-from fastapi import FastAPI
 import services.data_service as svc
-
+from fastapi import FastAPI, Query
+from services.models import Box, Split
 app = FastAPI()
 
 
@@ -21,3 +21,11 @@ def penis():
 
 
 
+
+
+app = FastAPI()
+
+
+@app.get("/splits")
+def create_split(split: Split):
+    return split

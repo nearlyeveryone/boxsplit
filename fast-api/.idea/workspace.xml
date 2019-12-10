@@ -27,6 +27,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python-api" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
@@ -91,6 +92,7 @@
       <workItem from="1573247514728" duration="2288000" />
       <workItem from="1573249823363" duration="292000" />
       <workItem from="1573592235047" duration="3141000" />
+      <workItem from="1574456649688" duration="659000" />
     </task>
     <servers />
   </component>

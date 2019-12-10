@@ -19,8 +19,7 @@ def main():
     #
     # svc.add_split_to_box(box, split)
     # svc.add_split_to_user
-    app = fa.app
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+
 
 
 

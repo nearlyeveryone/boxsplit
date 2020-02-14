@@ -12,8 +12,11 @@ def main():
     mongo_setup.global_init(secrets)
 
     user = svc.create_user("poog", "poog@split.box")
+    print(user)
     box = svc.create_box("testbox", "this is a test box")
+    print(box)
     split = svc.create_split("testsplit", "this is a test split", 12)
+    print(split)
 
 
     # print(svc.find_user_by_email('poog@split.box'))

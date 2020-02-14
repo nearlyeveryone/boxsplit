@@ -8,8 +8,10 @@ import json
 
 
 def main():
+    print("ree")
     secrets = read_secrets()
     mongo_setup.global_init(secrets)
+    print("asdf")
 
     user = svc.create_user("poog", "poog@split.box")
     print(user)

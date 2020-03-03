@@ -3,6 +3,7 @@ from fastapi import FastAPI, Query
 from services.models import Box, Split
 app = FastAPI()
 
+#uvicorn main:app --reload
 
 @app.get("/")
 def read_root():

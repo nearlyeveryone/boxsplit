@@ -11,15 +11,15 @@ def main():
     secrets = read_secrets()
     mongo_setup.global_init(secrets)
 
-    svc.create_user("poog", "poog@split.box")
+    # svc.create_user("poog", "poog@split.box")
     # user = svc.find_user_by_email("poog@split.box")
     # box = svc.find_box_by_id("5dbc8670e3e74473175d283f")
     # split = svc.find_split_by_id("5dbc8670e3e74473175d283e")
     #
     # svc.add_split_to_box(box, split)
     # svc.add_split_to_user
-    # app = fa.app
-    # uvicorn.run(app, host="0.0.0.0", port=8000)
+    app = fa.app
+    uvicorn.run(app, host="0.0.0.0", port=8000)
 
 
 def read_secrets():

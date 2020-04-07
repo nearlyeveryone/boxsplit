@@ -19,4 +19,3 @@ class Box(mongoengine.Document):
     meta = {
         'collection': 'boxes'
     }
- 

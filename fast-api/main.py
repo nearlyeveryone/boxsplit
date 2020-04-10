@@ -7,7 +7,6 @@ import json
 import uvicorn
 from models import Split, Box, User
 
-
 # uvicorn main:app --reload
 # class Split(BaseModel):
 #     split_id: int
@@ -28,18 +27,26 @@ from models import Split, Box, User
 
 app = FastAPI()
 
+class Test(BaseModel):
+    id: int = None
+    name: str = "Kimi no na wa?"
+    creation_date: datetime = datetime.now()
+
 @app.get("/splits")
 def create_split():
-    return Split(id = "asd")
+    return Split(id="asd")
+
 
 @app.get("/boxes")
 def create_box():
-    return Box(splits = [Split(id="nest",description='I am stuck in here',name="Nest Uno"),
-                                Split(id="nest2", description="Its dark in here",name="Nest Dos" )])
+    return Box(splits=[Split(id="nest", description='I am stuck in here', name="Nest Uno"),
+                       Split(id="nest2", description="Its dark in here", name="Nest Dos")])
+
 
 @app.get("/user/{user_id}")
 async def get_user(user_id: str):
-    return User(id = user_id)
+    return User(id=user_id)
+
 
 @app.get("/")
 def read_root():

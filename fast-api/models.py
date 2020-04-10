@@ -28,6 +28,8 @@ class Split(BaseID):
     description: str = 'I have no description'
     price_dollars: condecimal(decimal_places=2) = 19.99
     creation_date: datetime = datetime.now()
+    boxid: str = None
+    #Need to cheese a reference to the box, cannot do circular references
 
 
 class Box(BaseID):
@@ -42,3 +44,5 @@ class Box(BaseID):
 class User(BaseID):
     name: str = "I have no name"
     email: str = "jackss@rpi.edu"
+    boxes: List[Box] = None #Boxes a
+    splits: List[Split] = None

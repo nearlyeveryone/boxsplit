@@ -20,13 +20,6 @@ def penis():
     user = svc.find_user_by_email("poog@split.box")
     return user.to_json()
 
-
-
-
-
-app = FastAPI()
-
-
 @app.get("/splits")
 def create_split(split: Split):
     return split

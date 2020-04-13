@@ -16,7 +16,7 @@ def read_item(item_id: int, q: str = None):
 
 
 @app.get("/user_test")
-def penis():
+def user_test():
     user = svc.find_user_by_email("poog@split.box")
     return user.to_json()
 

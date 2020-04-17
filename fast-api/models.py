@@ -1,5 +1,4 @@
 from bson import ObjectId
-from fastapi import FastAPI, Query
 from pydantic import BaseModel, condecimal
 from typing import List
 from datetime import datetime

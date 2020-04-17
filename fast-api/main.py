@@ -1,7 +1,8 @@
-from fastapi import FastAPI, Query
-from pydantic import BaseModel,
 from datetime import datetime
+
+from fastapi import FastAPI
 from models import Split, Box, User
+from pydantic import BaseModel
 
 # uvicorn main:app --reload
 # class Split(BaseModel):
@@ -23,10 +24,12 @@ from models import Split, Box, User
 
 app = FastAPI()
 
+
 class Test(BaseModel):
     id: int = None
     name: str = "Kimi no na wa?"
     creation_date: datetime = datetime.now()
+
 
 @app.get("/splits")
 def create_split():
@@ -52,6 +55,7 @@ def read_root():
 @app.get("/items/{item_id}")
 async def read_item(item_id: int):
     return {"item_id": item_id}
+
 
 '''
 @app.get("/user_test")

@@ -1,10 +1,6 @@
-from enum import Enum
 from fastapi import FastAPI, Query
-from pydantic import BaseModel, condecimal
-from typing import List
+from pydantic import BaseModel,
 from datetime import datetime
-import json
-import uvicorn
 from models import Split, Box, User
 
 # uvicorn main:app --reload
@@ -56,3 +52,10 @@ def read_root():
 @app.get("/items/{item_id}")
 async def read_item(item_id: int):
     return {"item_id": item_id}
+
+'''
+@app.get("/user_test")
+def user_test():
+    user = svc.find_user_by_email("poog@split.box")
+    return user.to_json()
+'''

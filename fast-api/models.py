@@ -37,6 +37,7 @@ class Box(BaseID):
     state: int = 0
     creation_date: datetime = datetime.now()
 
+    tags: List[str] = None
     splits: List[Split] = None
 
 

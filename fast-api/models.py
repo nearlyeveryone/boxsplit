@@ -1,5 +1,4 @@
 from bson import ObjectId
-from fastapi import FastAPI, Query
 from pydantic import BaseModel, condecimal
 from typing import List
 from datetime import datetime
@@ -38,6 +37,7 @@ class Box(BaseID):
     state: int = 0
     creation_date: datetime = datetime.now()
 
+    tags: List[str] = None
     splits: List[Split] = None
 
 

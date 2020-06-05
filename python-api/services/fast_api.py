@@ -18,6 +18,7 @@ def read_item(item_id: int, q: str = None):
 @app.get("/user_test")
 def user_test():
     user = svc.find_user_by_email("poog@split.box")
+    print(user.to_json())
     return user.to_json()
 
 @app.get("/splits")

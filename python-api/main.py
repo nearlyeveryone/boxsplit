@@ -20,7 +20,7 @@ def main():
     # svc.add_split_to_box(box, split)
     # svc.add_split_to_user
     app = fa.app
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="50.116.50.126", port=8000)
 
 
 def read_secrets():

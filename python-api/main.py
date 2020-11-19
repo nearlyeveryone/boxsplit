@@ -13,7 +13,7 @@ def main():
 
     # svc.create_user("poog", "poog@split.box")
     user = svc.find_user_by_email("poog@split.box")
-    print (user.name)
+    print (user.email)
     # box = svc.find_box_by_id("5dbc8670e3e74473175d283f")
     # split = svc.find_split_by_id("5dbc8670e3e74473175d283e")
     #
